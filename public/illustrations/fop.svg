@@ -1,0 +1,62 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+
+  <defs>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f5d42"></stop>
+      <stop offset="100%" stop-color="#304b34"></stop>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d7b56d"></stop>
+      <stop offset="100%" stop-color="#b98b2f"></stop>
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#00000022"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- ноутбук -->
+  <rect x="70" y="90" width="370" height="230" rx="20" fill="white" filter="url(#shadow)"></rect>
+
+  <rect x="95" y="115" width="320" height="180" rx="10" fill="url(#green)"></rect>
+
+  <!-- графік -->
+  <polyline points="125,250 175,210 225,225 275,170 330,190 385,150" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></polyline>
+
+  <!-- підставка ноутбука -->
+  <rect x="120" y="325" width="270" height="18" rx="9" fill="url(#gold)"></rect>
+
+  <!-- калькулятор -->
+  <rect x="320" y="180" width="70" height="90" rx="8" fill="white"></rect>
+
+  <g fill="#304b34">
+    <rect x="332" y="192" width="14" height="14"></rect>
+    <rect x="352" y="192" width="14" height="14"></rect>
+    <rect x="372" y="192" width="14" height="14"></rect>
+
+    <rect x="332" y="214" width="14" height="14"></rect>
+    <rect x="352" y="214" width="14" height="14"></rect>
+    <rect x="372" y="214" width="14" height="14"></rect>
+
+    <rect x="332" y="236" width="14" height="14"></rect>
+    <rect x="352" y="236" width="14" height="14"></rect>
+    <rect x="372" y="236" width="14" height="14"></rect>
+  </g>
+
+  <!-- документ -->
+  <rect x="105" y="145" width="70" height="95" rx="8" fill="white"></rect>
+
+  <line x1="120" y1="165" x2="160" y2="165" stroke="#b98b2f" stroke-width="4"></line>
+
+  <line x1="120" y1="185" x2="160" y2="185" stroke="#b98b2f" stroke-width="4"></line>
+
+  <line x1="120" y1="205" x2="150" y2="205" stroke="#b98b2f" stroke-width="4"></line>
+
+  <!-- текст -->
+  <text x="256" y="480" text-anchor="middle" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700" fill="#304b34">
+    Бухгалтерія для ФОП
+  </text>
+
+</svg>
